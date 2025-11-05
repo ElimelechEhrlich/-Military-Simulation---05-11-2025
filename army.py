@@ -11,9 +11,9 @@ class Army:
             print (unit.attack())
             Army.total_attacks += 1
 
-strike1 = Tank('Tank', 20)
-strike2 = Rifle('rifle', 20)
-strike3 = SniperRifle('sniper rifle', 25)
+strike1 = Tank('Tank', 20, 'madium')
+strike2 = Rifle('rifle', 20, 'short')
+strike3 = SniperRifle('sniper rifle', 25, 'long')
 hshiryon = TankUnit('Hshiryon', strike1 , s1 , soldiers)
 golani = Infantry('Golani', strike2 , s1 , soldiers)
 golani_sniper = Sniper('Golani', strike2 , s1 , soldiers)
